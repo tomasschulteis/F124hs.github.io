@@ -21,11 +21,9 @@ padding: 0px;
 .flex-column {display: flex; flex-direction: column;}
 .container { max-width: 1080px; margin:0 auto}
 
-main {
-    background-color: #FBE5E5;
+body {
+    background-image: linear-gradient(to bottom, #8c2222, #973a4b, #99546e, #976e89, #968699, #9c909f, #a299a4, #a8a3aa, #b0a3ad, #baa2ad, #c5a2a9, #cea2a2);
 }
-
-header{background-color: #8C2222;}
 
 header .navbar { min-height: 10vh; justify-content: space-between; align-items: center; padding: 0.2rem; flex-wrap: wrap;}
 
@@ -37,12 +35,15 @@ header .menu {flex-basis: 40%; justify-content: space-between; }
 .subtitulo { background-color: #443c3c;
     color: #ffffffe0;
     text-align: center;
-    font-size: 1.5em;}
+    font-size: 1.5em;
+    animation: unefecto infinite ease-in-out 2s;}
 .presentation { gap: 2rem;
 align-items: center;
 padding: 0 2rem;}
 .presentation__badge {flex-basis: 50%; min-width: 320px}
 .img {width: 100%}
+#imagen3 {transition:  3s ease-in-out;}
+#imagen3:hover {transform: scale(1.30); }
 
 .presentation__text {flex-basis: 50%; 
     background-color: #727272; 
@@ -83,3 +84,7 @@ footer .fondodos {flex-direction: column; justify-content: center;}
 .navfooter >li >a:hover {color: #443c3c;}
 .presentation__link {font-size: 1.0;}
 .paragraph {font-size: 0.6em;}
+
+@keyframes unefecto {
+    0% { background-color: #727272;}
+  }

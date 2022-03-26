@@ -9,7 +9,8 @@ html {font-size: 62.5%;}
 
 body { display: grid;
 grid-template-rows: auto 1fr auto;
-min-height: 100vh;}
+min-height: 100vh;
+background-image: linear-gradient(to bottom, #8c2222, #973a4b, #99546e, #976e89, #968699, #9c909f, #a299a4, #a8a3aa, #b0a3ad, #baa2ad, #c5a2a9, #cea2a2);}
 
 ul { list-style-type: none;}
 a {text-decoration: none; color: inherit; display: inline-block;
@@ -21,7 +22,6 @@ padding: 0px;
 .flex-column {display: flex; flex-direction: column;}
 .container { max-width: 1080px; margin:0 auto}
 
-header{background-color: #8C2222;}
 
 header .navbar { min-height: 10vh; justify-content: space-between; align-items: center; padding: 0.2rem; flex-wrap: wrap;}
 
@@ -33,11 +33,9 @@ header .menu {flex-basis: 40%; justify-content: space-between; }
 .subtitulo { background-color: #443c3c;
     color: #ffffffe0;
     text-align: center;
-    font-size: 1.5em;}
+    font-size: 1.5em;animation: unefecto infinite ease-in 2s;}
 section {text-align: center; align-items: center;}
-main {
-    background-color: #FBE5E5;
-}
+
 h2 {font-size: 2.2em;}
 .presentation__container{font-size: 1.8em; text-align: justify;}
 
@@ -73,3 +71,7 @@ footer .fondodos {flex-direction: column; justify-content: center;}
 }
 .navfooter >li >a:hover {color: #443c3c;}
 .presentation__link {font-size: 1.0;}
+
+@keyframes unefecto {
+    0% { background-color: #727272;}
+  }
