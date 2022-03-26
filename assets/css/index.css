@@ -22,7 +22,7 @@ padding: 0px;
 .container { max-width: 1080px; margin:0 auto}
 
 body {
-    background-image: linear-gradient(to bottom, #8c2222, #973a4b, #99546e, #976e89, #968699, #9c909f, #a299a4, #a8a3aa, #b0a3ad, #baa2ad, #c5a2a9, #cea2a2);
+background-image: linear-gradient(to bottom, #8c2222, #973a4b, #99546e, #976e89, #968699, #9c909f, #a299a4, #a8a3aa, #b0a3ad, #baa2ad, #c5a2a9, #cea2a2);
 }
 
 header .navbar { min-height: 10vh; justify-content: space-between; align-items: center; padding: 0.2rem; flex-wrap: wrap;}
