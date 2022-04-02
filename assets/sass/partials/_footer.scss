@@ -1,0 +1,24 @@
+footer {background-color: #443c3c;}
+footer .fondodos { min-height: 10vh; justify-content: space-between; align-items: center; padding: 0.2rem; flex-wrap: wrap;}
+footer .logo2 {flex-basis: 30%;}
+footer .menu__item2 { text-decoration: none;}
+.navfooter .menu__item2 .menu__link2 {font-size: 2.5em; padding: 1rem; color: #f7f7f7;}
+.navfooter .menu__item2 .menu__link2:hover {color: #727272;}
+footer .navfooter {flex-basis: 40%; justify-content: center;}
+.titulo3 {text-align: center; color: #f7f7f7;}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px)
+ {footer {padding: 2em;}
+ footer .fondodos {flex-direction: column; justify-content: center;} 
+ .navfooter {font-size: 00.8em;} 
+ .navfooter >li >a:hover {color: #443c3c;}
+ .presentation__link {font-size: 1.0;}
+ .paragraph {font-size: 0.6em;} }
+
+ 

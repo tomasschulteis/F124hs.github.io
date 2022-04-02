@@ -1,0 +1,46 @@
+.subtitulo { background-color: #443c3c;
+    color: #ffffffe0;
+    text-align: center;
+    font-size: 1.5em;
+    animation: unefecto infinite ease-in-out 2s;}
+.presentation { gap: 2rem;
+align-items: center;
+padding: 0 4rem;}
+.presentation__badge {flex-basis: 50%; min-width: 320px}
+.img {width: 100%}
+#imagen3 {transition:  3s ease-in-out;}
+#imagen3:hover {transform: scale(1.30); }
+
+.presentation__text {flex-basis: 50%; 
+    background-color: #727272; 
+    color: #f7f7f7; border-style: solid; border-color: #8C2222;
+    font-size: 0.8em;
+}
+.presentation__link {text-align: center; font-size: 1.6em;}
+#paragraph {font-size: 0.9em;}
+
+@media screen and (max-width: 768px)
+{ header {padding: 2em;}
+header .navbar{flex-direction: column; justify-content: center;}
+    .menu {font-size: 0.8em;} 
+    .subtitulo {font-size: 1.0em;} 
+#imagen {flex-grow: 1;}    
+.presentation {flex-wrap: wrap;
+    flex-direction: column; font-size: 1.8em;  text-align: justify;} 
+.presentation__text {font-size: 0.9em; display: flex; flex-direction: column; flex-grow: 1; text-align: center;}
+footer {padding: 2em;}
+footer .fondodos {flex-direction: column; justify-content: center;}  
+.navfooter {font-size: 00.8em;}  
+.carousel-item { height: 300px; width: 70vh;}
+.carousel-caption__linkimg {font-size: 2.5rem; text-decoration: none;}
+p {font-size: 1.5rem;}
+
+.carousel-caption__linkimg:hover{color: #727272;}
+
+
+
+}
+.navfooter >li >a:hover {color: #443c3c;}
+.presentation__link {font-size: 1.0;}
+.paragraph {font-size: 0.6em;}
+

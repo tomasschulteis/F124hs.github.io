@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {font-size: 62.5%;}
+
+body { display: grid;
+grid-template-rows: auto 1fr auto;
+min-height: 100vh;background-image: linear-gradient(to bottom, #8c2222, #973a4b, #99546e, #976e89, #968699, #9c909f, #a299a4, #a8a3aa, #b0a3ad, #baa2ad, #c5a2a9, #cea2a2);}
+
+ul { list-style-type: none;}
+a {text-decoration: none; color: inherit; display: inline-block;
+padding: 0px; 
+
+}
+

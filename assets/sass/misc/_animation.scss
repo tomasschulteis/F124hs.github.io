@@ -1,0 +1,17 @@
+.carousel-inner{
+  height: 420px;}
+ 
+  .carousel-item { height: 100px; width: 100vh;}
+ 
+  .carousel-caption { position: sticky;}
+ 
+ .carousel-caption__linkimg {font-size: 2.5rem; text-decoration: none;}
+ p {font-size: 1.5rem;}
+ 
+ .carousel-caption__linkimg:hover{color: #727272;}
+
+
+
+@keyframes unefecto {
+    0% { background-color: #727272;}
+  }

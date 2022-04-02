@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&family=Shizuru&family=Suravaram&display=swap');
+@import "./misc/variables";
+
+@import "./misc/normalize";
+@import "./misc/mixins";
+@import "./misc/animation";
+
+@import "./partials/header";
+@import "./partials/footer";
+
+@import "./views/home";
+@import "./views/noticias";
+@import "./views/campeonato";
+@import "./views/multimedia.scss";
+@import "./views/contact";
