@@ -196,11 +196,14 @@ footer .navfooter {
   flex-basis: 50%;
   min-width: 320px; }
 
-.img {
-  width: 100%; }
+#imagen3 {
+  width: 380px;
+height: 320px; }
 
 #imagen3 {
   transition: 3s ease-in-out; }
+
+
 
 #imagen3:hover {
   transform: scale(1.3); }
@@ -220,46 +223,7 @@ footer .navfooter {
 #paragraph {
   font-size: 0.9em; }
 
-@media screen and (max-width: 768px) {
-  header {
-    padding: 2em; }
-  header .navbar {
-    flex-direction: column;
-    justify-content: center; }
-  .menu {
-    font-size: 0.8em; }
-  .subtitulo {
-    font-size: 1.0em; }
-  #imagen {
-    flex-grow: 1; }
-  .presentation {
-    flex-wrap: wrap;
-    flex-direction: column;
-    font-size: 1.8em;
-    text-align: justify; }
-  .presentation__text {
-    font-size: 0.9em;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    text-align: center; }
-  footer {
-    padding: 2em; }
-  footer .fondodos {
-    flex-direction: column;
-    justify-content: center; }
-  .navfooter {
-    font-size: 00.8em; }
-  .carousel-item {
-    height: 300px;
-    width: 70vh; }
-  .carousel-caption__linkimg {
-    font-size: 2.5rem;
-    text-decoration: none; }
-  p {
-    font-size: 1.5rem; }
-  .carousel-caption__linkimg:hover {
-    color: #727272; } }
+
 
 .navfooter > li > a:hover {
   color: #443c3c; }
@@ -368,7 +332,12 @@ img {
     font-size: 00.8em; }
   .galeria {
     grid-template-columns: 1fr;
-    grid-template-areas: "mercedez-benz" "ferrari" "ferrariimagen" "alpine" "mercedez-benzimagen" "alpineimagen"; } }
+    grid-template-areas: "mercedez-benz"
+ "ferrari"
+ "ferrariimagen"
+ "alpine"
+ "mercedez-benzimagen"
+ "alpineimagen"; } }
 
 .navfooter > li > a:hover {
   color: #443c3c; }
