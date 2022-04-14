@@ -281,12 +281,16 @@ h2 {
   font-size: 1.8em;
   text-align: justify; }
 
+.presentation__badge {
+  flex-basis: 50%;
+  min-width: 320px; }
+
 #imagen3 {
   transition: 3s ease-in-out; }
 
 #imagen3 {
-  width: 380px;
-height: 400px; }
+  width: 400px;
+  height: 320px; }
 
 h1 {
   color: #ffffff;
@@ -368,12 +372,7 @@ img {
     font-size: 00.8em; }
   .galeria {
     grid-template-columns: 1fr;
-    grid-template-areas: "mercedez-benz"
- "ferrari"
- "ferrariimagen"
- "alpine"
- "mercedez-benzimagen"
- "alpineimagen"; } }
+    grid-template-areas: "mercedez-benz" "ferrari" "ferrariimagen" "alpine" "mercedez-benzimagen" "alpineimagen"; } }
 
 .navfooter > li > a:hover {
   color: #443c3c; }
@@ -409,3 +408,23 @@ h1 {
 
 .paragraph {
   font-size: 0.6em; }
+
+.titulodecontacto {
+  font-size: 2.2em;
+  color: #ffffff; }
+
+.parrafodecontacto {
+  font-size: 1.2em;
+  color: #ffffff; }
+
+.form-control {
+  font-size: 1.0em; }
+
+.form-label {
+  align-items: flex-start; }
+
+.form-select {
+  font-size: 1.0em; }
+
+.btn {
+  font-size: 1.2em; }
