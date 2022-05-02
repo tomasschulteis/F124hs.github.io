@@ -2,14 +2,15 @@
 
 
 section {text-align: center; align-items: center;}
-
-h2 {font-size: 2.2em;}
-.presentation__container{font-size: 1.8em; text-align: justify;}
-
+.noticiastitulo {font-size: 3.7em;}
+h2 {font-size: 1.4em;}
+.presentation__container{font-size: 1.2em; text-align: justify; font-family: Charter,Georgia,Times,Serif; line-height: 1.6em;;}
+.noticiados{font-family:Charter,Georgia,Times,Serif; line-height: 1.6em; font-size: 1.0em; padding: px;}
 .presentation__badge {
     flex-basis: 50%;
     min-width: 320px; }
-
+.noticiageneral {padding: 12px;}
+.noticiaredbull {font-size: 1.8em; padding: 12px;}
 #imagen3 {
     transition: 3s ease-in-out;
 }

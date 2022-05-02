@@ -12,7 +12,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, #8c2222, #973a4b, #99546e, #976e89, #968699, #9c909f, #a299a4, #a8a3aa, #b0a3ad, #baa2ad, #c5a2a9, #cea2a2); }
+  background-image: linear-gradient(to bottom, #888888, #9d9d9e, #b4b3b3, #cbc9ca, #e2e0e0); }
 
 ul {
   list-style-type: none; }
@@ -180,12 +180,18 @@ footer .navfooter {
   .paragraph {
     font-size: 0.6em; } }
 
+header {
+  background-color: #2d2c2c; }
+
 .subtitulo, .subtitulohijo1, .subtitulohijo {
-  background-color: #443c3c;
+  background-color: #2f2f2fd7;
   color: #ffffff;
   text-align: center;
   font-size: 1.5em;
   animation: unefecto infinite ease-in-out 2s; }
+
+.fondodecarrousel {
+  background-color: #2d2c2c; }
 
 .presentation {
   gap: 2rem;
@@ -220,6 +226,58 @@ footer .navfooter {
 #paragraph {
   font-size: 0.9em; }
 
+.waves {
+  padding: 2rem;
+  margin: 0 auto;
+  display: flex;
+  width: 1105px;
+  height: 320px; }
+
+.pista {
+  display: flexbox; }
+
+h6 {
+  text-align: center;
+  color: #f7f7f7;
+  text-decoration: solid;
+  font-size: 2.6em; }
+
+.pistamiami {
+  width: 620px;
+  height: 384px;
+  transform: translate(170px, 0px); }
+
+.textopista {
+  color: #3a3a3a;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.1em;
+  flex-basis: 50%;
+  color: #5d5d5d;
+  transform: translate(29px, 0px); }
+
+.titulopiloto {
+  position: relative;
+  left: 0.8%;
+  font-size: 2.2em;
+  color: #f7f7f7; }
+
+.pilotos {
+  gap: 0.2rem;
+  max-width: 70%;
+  position: relative;
+  left: 10px; }
+
+.movimientodeimagen {
+  transition: 0.5s ease-in-out; }
+
+.movimientodeimagen:hover {
+  transform: scale(5.9); }
+
+.nombredepilotos {
+  font-size: 0.8em;
+  font-family: "https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&family=Shizuru&family=Suravaram&display=swap";
+  font-weight: bold; }
+
 @media screen and (max-width: 768px) {
   header {
     padding: 2em; }
@@ -235,7 +293,7 @@ footer .navfooter {
   .presentation {
     flex-wrap: wrap;
     flex-direction: column;
-    font-size: 1.8em;
+    font-size: larger;
     text-align: justify; }
   .presentation__text {
     font-size: 0.9em;
@@ -243,6 +301,10 @@ footer .navfooter {
     flex-direction: column;
     flex-grow: 1;
     text-align: center; }
+  .carousel-caption__linkimg {
+    position: sticky; }
+  .carousel-caption {
+    height: 10em; }
   footer {
     padding: 2em; }
   footer .fondodos {
@@ -250,16 +312,35 @@ footer .navfooter {
     justify-content: center; }
   .navfooter {
     font-size: 00.8em; }
-  .carousel-item {
-    height: 300px;
-    width: 70vh; }
-  .carousel-caption__linkimg {
-    font-size: 2.5rem;
-    text-decoration: none; }
   p {
     font-size: 1.5rem; }
   .carousel-caption__linkimg:hover {
-    color: #727272; } }
+    color: #727272; }
+  .textopista {
+    color: #3a3a3a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    flex-basis: 50%;
+    color: #5d5d5d;
+    transform: translate(-3px, 10px);
+    text-align: inherit;
+    font-size: 1.0em; }
+  h3 {
+    text-align: center;
+    color: #040404;
+    text-decoration: solid;
+    font-size: 1.9em; }
+  .pistamiami {
+    width: 502px;
+    height: 196px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transform: translate(-13px, -1px); }
+  .pilotos {
+    gap: 0.2rem;
+    max-width: 75%;
+    position: relative;
+    left: 10px; } }
 
 .navfooter > li > a:hover {
   color: #443c3c; }
@@ -274,16 +355,34 @@ section {
   text-align: center;
   align-items: center; }
 
+.noticiastitulo {
+  font-size: 3.7em; }
+
 h2 {
-  font-size: 2.2em; }
+  font-size: 1.4em; }
 
 .presentation__container {
-  font-size: 1.8em;
-  text-align: justify; }
+  font-size: 1.2em;
+  text-align: justify;
+  font-family: Charter,Georgia,Times,Serif;
+  line-height: 1.6em; }
+
+.noticiados {
+  font-family: Charter,Georgia,Times,Serif;
+  line-height: 1.6em;
+  font-size: 1.0em;
+  padding: px; }
 
 .presentation__badge {
   flex-basis: 50%;
   min-width: 320px; }
+
+.noticiageneral {
+  padding: 12px; }
+
+.noticiaredbull {
+  font-size: 1.8em;
+  padding: 12px; }
 
 #imagen3 {
   transition: 3s ease-in-out; }
@@ -372,7 +471,12 @@ img {
     font-size: 00.8em; }
   .galeria {
     grid-template-columns: 1fr;
-    grid-template-areas: "mercedez-benz" "ferrari" "ferrariimagen" "alpine" "mercedez-benzimagen" "alpineimagen"; } }
+    grid-template-areas: "mercedez-benz"
+ "ferrari"
+ "ferrariimagen"
+ "alpine"
+ "mercedez-benzimagen"
+ "alpineimagen"; } }
 
 .navfooter > li > a:hover {
   color: #443c3c; }
@@ -399,6 +503,9 @@ h1 {
   align-items: center;
   padding: 0 2rem;
   font-size: 1.5em; }
+
+.btn {
+  background-color: #443c3c; }
 
 .navfooter > li > a:hover {
   color: #443c3c; }
